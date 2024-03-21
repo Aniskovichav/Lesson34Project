@@ -1,15 +1,15 @@
 package by.itstep.aniskovich.java.lesson34.model;
 
 public class WeekDay {
-    private String name;
-    private int number;
+    private final String name;
+    private final int number;
 
     public WeekDay() {
         name = "Monday";
         number = 1;
     }
 
-    public WeekDay(int number, String name) {
+    public WeekDay(String name, int number) {
         this.number = number;
         this.name = name;
     }
