@@ -1,5 +1,7 @@
 package by.itstep.aniskovich.java.lesson34.model;
 
+import java.lang.Enum;
+
 public enum WeekDayType {
     MONDAY("Monday", 1),
     TUESDAY("Tuesday", 2),
